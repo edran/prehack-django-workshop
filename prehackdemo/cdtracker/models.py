@@ -11,8 +11,8 @@ class Artist(Model):
 
 class Album(Model):
     name       = CharField(max_length=24)
-    artist     = ForeignKey(Artist)
     num_tracks = IntegerField()
+    artist     = ForeignKey(Artist)
     
     def __unicode__(self):
         """This function gives a meaningful output when we print an Album object"""

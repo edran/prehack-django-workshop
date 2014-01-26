@@ -8,6 +8,6 @@ urlpatterns = patterns('',
     # url(r'^$', 'prehackdemo.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
-    #url(r'^cdtracker/', include('cdtracker.urls')),
+    url(r'^cdtracker/', include('cdtracker.urls')),
     url(r'^admin/', include(admin.site.urls)),
 )

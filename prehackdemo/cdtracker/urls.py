@@ -1,7 +1,7 @@
 from django.conf.urls import patterns, url
 
 urlpatterns = patterns('', 
-    url(r'^albums/$', 'cdtracker.views.albums'),
-    url(r'^artists/$', 'cdtracker.views.artists'),
-    url(r'^album/(\d+)/$', 'cdtracker.views.albums'),
+    url(r'^albumlist/$', 'cdtracker.views.albumlist'),
+    url(r'^album/(\d+)/$', 'cdtracker.views.album'),
+    url(r'^artistlist/$', 'cdtracker.views.artistlist'),
 )
