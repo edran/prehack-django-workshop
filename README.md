@@ -5,6 +5,7 @@ An example Django app for CompSoc's 2014 pre-hack
 
 Here's a random GNU:
 
+```
   ,           , 
  /             \ 
 ((__-^^-,-^^-__)) 
@@ -14,3 +15,4 @@ Here's a random GNU:
       ): :( 
       :o_o: 
        "-" 
+```
